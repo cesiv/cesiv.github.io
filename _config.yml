@@ -5,9 +5,9 @@ url                          : "" # the base hostname & protocol for your site
                                   # `http://<username>.github.io` - for GitHub
 
 blog:
-  title                      : dactl
+  title                      : 觉傲的个人技术博客
   description                  : >
-                               this should contain a proper description
+                               提升自己的点点滴滴，阳光正好，努力向上
 
 # Layout configuration
   logo_path                  : "assets/img/dactl.svg" # path to logo file
@@ -26,11 +26,11 @@ blog:
 
 # Author info
 author:
-  fullname                  : Your Name
+  fullname                  : JEFF HE
   rss                       : true # generate RSS feed and show it's icon in header
-  mail                      : your@email.com # change to your e-mail address
+  mail                      : bzvio@vip.qq.com # change to your e-mail address
   twitter                   : twitter-user-name
-  github                    : github-user-name
+  github                    : cesiv
   youtube                   : youtube-user-name
   stackoverflow             : stackoverflow-user-name
   disqus                    : dactl # your disqus site name
