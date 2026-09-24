@@ -16,10 +16,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.x"
-      - name: Fetch and summarize news
+      - name: Fetch public RSS news
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_MODEL: gpt-4o-mini
           NEWS_MAX_ARTICLES: "5"
         run: python scripts/fetch_news.py
       - name: Commit generated posts
